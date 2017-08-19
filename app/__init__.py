@@ -5,9 +5,9 @@ Licence: GPLv3
 """
 
 from flask import Flask
-from flask.ext.bootstrap import Bootstrap
-from flask.ext.login import LoginManager
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_bootstrap import Bootstrap
+from flask_login import LoginManager
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 

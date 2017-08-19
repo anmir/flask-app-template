@@ -4,8 +4,8 @@ Python Aplication Template
 Licence: GPLv3
 """
 
-from flask.ext.wtf import Form, TextField, TextAreaField, DateTimeField, PasswordField
-from flask.ext.wtf import Required
+from flask_wtf import Form, TextField, TextAreaField, DateTimeField, PasswordField
+from flask_wtf import Required
 
 
 class ExampleForm(Form):
